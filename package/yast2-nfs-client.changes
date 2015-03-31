@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Mar 31 09:08:32 UTC 2015 - mvidner@suse.com
+
+- Consider path dependencies between mount points, allowing eg.
+  a local mount on top of an NFS mount point (bsc#922307).
+
+-------------------------------------------------------------------
 Fri Jan 18 14:05:54 CET 2013 - mvidner@suse.cz
 
 - AutoYaST: fix to allow NFS4 options (FATE#312242, bnc#457981)
